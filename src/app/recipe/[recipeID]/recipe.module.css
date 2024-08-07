@@ -1,0 +1,48 @@
+/* styles/Recipe.module.css */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.description {
+  font-size: 1.2em;
+  color: #666;
+  text-align: center;
+}
+
+.ingredients {
+  list-style: none;
+  padding: 0;
+  font-size: 1.1em;
+}
+
+.ingredient {
+  margin-bottom: 10px;
+}
+
+.ingredient::before {
+  content: "•";
+  color: #ff6347;
+  margin-right: 10px;
+}
+
+.instructions {
+  font-size: 1.1em;
+  margin-top: 20px;
+}
+
+.instruction {
+  margin-bottom: 15px;
+}
+
+.recipeImage {
+  width: 100%;
+  height: auto;
+}
